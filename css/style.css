@@ -1,0 +1,26 @@
+/* make a border around the flag icon */
+img.wpml_flags {
+    border : 1px solid #f1f1f1;
+}
+
+/* bring the icons a bit closer together */
+li.wpml_flags.not-last {
+    margin-right : -20px;
+}
+
+/* a little left padding after the flag, when name is used too */
+.wpml_flags_name {
+    padding-left : 10px;
+}
+
+/* flag wrapper right justify
+#main-nav ul div.flag_wrapper {
+    float: right;
+}
+
+or:
+#main-nav ul span.flag_wrapper {
+    float: right;
+    line-height: 14px; <- change this if neccessary
+}
+*/
